@@ -10,7 +10,9 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme"
             tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name="com.demo.twitsplit.MainActivity">
+        <activity android:name="com.demo.twitsplit.MainActivity"
+                  android:windowSoftInputMode="stateAlwaysVisible|adjustResize"
+                  android:configChanges="keyboard|screenLayout|orientation">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 

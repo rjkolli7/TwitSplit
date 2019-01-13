@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">ZaloraAssignment</string>
     <string name="edt_hint">What\'s happening?</string>
+    <string name="tweet">Tweet</string>
 </resources>
