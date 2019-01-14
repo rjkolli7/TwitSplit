@@ -13,6 +13,25 @@ This Demo includes
 1. Espresso Instrumental Test.
 2. Business logic Unit Test.
 
+#Note
+
+Espresso doesn't work well with animations due to the visual state delays they introduce. You need to disable animations on your device. Firstly, enable developer options:
+Check  https://developer.android.com/studio/debug/dev-options
+
+- Open the Settings app.
+- Scroll to the bottom and select About phone.
+- Scroll to the bottom and tap Build number 7 times.
+- Return to the previous screen to find Developer options near the bottom.
+
+
+Access Developer Options from Settings app, and under the Drawing section, switch all of the following options to Animation Off:
+
+- Window animation scale
+- Transition animation scale
+- Animator duration scale
+
+![Developer Options] (https://github.com/rjkolli7/TwitSplit/images/developer_options.png)
+
 # CommonHelper.kt
 
 - splitMessage(message) method used for
