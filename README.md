@@ -30,7 +30,7 @@ Access Developer Options from Settings app, and under the Drawing section, switc
 - Transition animation scale
 - Animator duration scale
 
-![Developer Options] (https://github.com/rjkolli7/TwitSplit/images/developer_options.png)
+![Developer Options] (https://raw.githubusercontent.com/rjkolli7/TwitSplit/master/images/developer_options.png)
 
 # CommonHelper.kt
 
