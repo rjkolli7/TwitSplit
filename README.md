@@ -5,6 +5,7 @@ Android application versions:
 
 Min SDK Version : 15
 Target SDK Version: 28
+Compile SDK Version: 28
 Kotlin Version: 1.3.11
 Gradle Version: 3.2.1
 
